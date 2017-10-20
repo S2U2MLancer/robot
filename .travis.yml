@@ -1,0 +1,21 @@
+language: java
+
+before_install:
+- echo nothing to install
+install:
+- echo nothing to install
+
+before_script:
+
+
+script:
+
+after_success:
+- echo success
+
+after_failure:
+- echo failure
+
+after_script:
+-echo nothing to do
+
