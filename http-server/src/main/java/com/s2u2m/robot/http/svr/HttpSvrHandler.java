@@ -35,7 +35,7 @@ public class HttpSvrHandler extends ChannelInboundHandlerAdapter {
 	@Override
 	public void channelRead(ChannelHandlerContext ctx, Object msg) {
 		if (msg instanceof HttpContent) {
-			@Cleanup( value = "release")
+			@Cleanup(value = "release")
 			HttpContent httpContent = (HttpContent)msg;
 			String content = httpContent.content().toString(CharsetUtil.UTF_8);
 			log.info("receive:{}", content);
