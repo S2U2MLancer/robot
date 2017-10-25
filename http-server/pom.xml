@@ -9,14 +9,14 @@
     <parent>
         <groupId>com.s2u2m.robot</groupId>
         <artifactId>robot</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
 
     <dependencies>
         <dependency>
             <groupId>com.s2u2m.robot</groupId>
             <artifactId>net</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 
